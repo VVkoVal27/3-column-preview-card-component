@@ -12,65 +12,54 @@ body {
 
 .boxOne {
   background-color: #e28525;
-  height: 550px;
-  width: 350px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
 
 .boxTwo {
   background-color: #016972;
-  height: 550px;
-  width: 350px;
 }
 
 .boxThree {
   background-color: #00403f;
-  height: 550px;
-  width: 350px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
 .box {
   float: left;
+  padding: 60px;
+  height: 500px;
+  width: 230px;
+  color: white;
 }
 
-svg {
-  padding-top: 60px;
-  padding-left: 60px;
+img {
+  height: 45px;
+  padding-top: 10px;
 }
 
 .textBox {
   padding-top: 50px;
-  padding-left: 50px;
+  font-size: 47px;
+  font-family: "Big Shoulders Display", cursive;
 }
 
 .textBox1 {
-  padding-top: 70px;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-.textBox3 {
-  color: white;
-}
-
-.text {
-  color: white;
-  font-size: 35px;
-}
-
-.text2 {
-  color: white;
-}
-
-.text3 {
-  color: white;
+  padding-top: 40px;
+  font-family: "Lexend Deca", sans-serif;
+  line-height: 25px;
+  font-size: 15px;
 }
 
 .button {
-  padding-top: 150px;
-  padding-left: 50px;
   border-color: white;
-  border-radius: 15px;
+  border-radius: 30px;
+  border-color: white;
+  position: absolute;
+  border: 2px solid white;
+  color: white;
+  padding: 15px 33px;
+  margin-top: 120px;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 13px;
 }
